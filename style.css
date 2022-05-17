@@ -1,0 +1,64 @@
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+body
+{
+    background-color: rgb(191, 174, 201);
+}
+.parent div
+{
+ height: 40px;
+ width: 150px;
+ border: 2px solid rgb(45, 4, 48);
+ border-radius: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ font-size: 25px;
+ padding: 15px;
+background-color: rgb(99, 116, 174); 
+cursor: pointer;
+
+
+
+
+}
+.parent
+{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 50px;
+}
+.id
+{
+}
+.parent .play
+{
+    margin-top: 50px;
+    background-color: rgb(197, 60, 60);
+    text-align: center;
+}
+.parent .empty
+{
+    margin-bottom: 50px;
+    background-color: rgb(197, 60, 60);
+    text-align: center;
+    cursor: auto;
+}
+.parent div:hover
+{
+    transition:0.5s;
+    background-color: rgb(60, 8, 123);
+    box-shadow: 2px 2px 2px rgb(9, 9, 24);
+    text-shadow: 2px 2px 2px rgb(149, 149, 198);
+}
+.parent .play:hover
+{
+    transition:0.5s;
+    background-color: rgb(245, 12, 19);
+    box-shadow: 2px 2px 20px rgb(9, 9, 24);
+    text-shadow: 2px 2px 20px rgb(246, 246, 253);
+}
